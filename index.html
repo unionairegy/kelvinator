@@ -1,130 +1,1279 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مركز صيانة كلفينيتور للثلاجات والديب فريزر - الخط الساخن</title>
-    <meta name="description" content="مركز صيانة كلفينيتور لإصلاح الثلاجات والديب فريزر نوفروست في مصر بقطع غيار أصلية وضمان معتمد.">
-    
-    <!-- رابط الكانونيكال -->
-    <link rel="canonical" href="https://kelvinator.maintenance-eg.net/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مركز صيانة كلفينيتور للثلاجات والديب فريزر بالقاهرة والجيزة والإسكندرية</title>
+  <link rel="canonical" href="https://kelvinator.maintenance-eg.net/">
+  <meta name="description" content="مركز صيانة كلفينيتور متخصص في فحص وإصلاح أعطال ثلاجات وديب فريزر كلفينيتور نوفروست بالمنزل في القاهرة والجيزة والإسكندرية عبر الرقم 01156174546.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Schema Markup متطابق مع بيانات الاتصال الجديدة -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "مركز صيانة كلفينيتور - الخط الساخن",
-      "telephone": "+20 11 56174546",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "12 شارع كلية الزراعة، كورنيش النيل",
-        "addressLocality": "القاهرة",
-        "addressRegion": "القاهرة الكبرى",
-        "addressCountry": "EG"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 29.9095178,
-        "longitude": 31.2866389
-      },
-      "url": "https://kelvinator.maintenance-eg.net/"
+  <style>
+    :root {
+      --primary: #0a2540;
+      --primary-dark: #061728;
+      --accent-red: #d32f2f;
+      --accent-green: #25d366;
+      --accent-orange: #f26522;
+      --bg-page: #f8fafc;
+      --card-border: #e2e8f0;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
     }
-    </script>
 
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Tahoma, Arial, sans-serif; }
-        body { background-color: #f8f9fa; color: #333; direction: rtl; text-align: right; line-height: 1.6; }
-        
-        header { background: linear-gradient(135deg, #003366, #005599); color: #fff; padding: 40px 20px; text-align: center; }
-        header h1 { font-size: 32px; margin-bottom: 10px; }
-        header p { font-size: 18px; opacity: 0.9; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    }
 
-        .container { width: 90%; max-width: 1100px; margin: 30px auto; }
-        
-        .intro-section { background: #fff; padding: 25px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-right: 5px solid #ff6600; }
-        .intro-section h2 { color: #003366; margin-bottom: 12px; font-size: 22px; }
-        .intro-section p { color: #555; font-size: 15px; }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-top: 75px;
+      padding-bottom: 0;
+    }
 
-        .section-title { text-align: center; margin-bottom: 30px; font-size: 26px; color: #003366; }
-        
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 40px; }
-        .service-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); border-top: 4px solid #ff6600; padding: 25px; position: relative; }
-        .service-num { position: absolute; top: 15px; left: 15px; background: #ff6600; color: #fff; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; }
-        .service-card h3 { font-size: 20px; color: #003366; margin-bottom: 12px; }
-        .service-card p { font-size: 14px; color: #666; }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
 
-        .info-map-wrapper { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
-        .info-side { flex: 1; min-width: 280px; }
-        .info-side h3 { color: #003366; margin-bottom: 15px; font-size: 22px; }
-        .info-side p { margin-bottom: 10px; font-size: 15px; }
-        .phone-highlight { color: #ff6600; font-size: 20px; font-weight: bold; }
-        .map-side { flex: 1.2; min-width: 300px; }
-        .map-side iframe { width: 100%; height: 350px; border: 0; border-radius: 6px; }
+    /* Fixed Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 75px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--card-border);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
 
-        .cta-btn { display: inline-block; background: #ff6600; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; text-align: center; }
-        footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; }
-    </style>
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo-area {
+      font-weight: 900;
+      font-size: 1.2rem;
+      color: var(--primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-call-header {
+      background-color: var(--accent-red);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s ease;
+    }
+
+    .btn-call-header:hover {
+      background-color: #b71c1c;
+    }
+
+    /* Hero SEO */
+    .hero-seo {
+      padding: 40px 0 20px 0;
+      text-align: center;
+    }
+
+    .hero-seo h1 {
+      font-size: 1.95rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+
+    .hero-seo h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 18px;
+    }
+
+    .hero-seo p {
+      font-size: 1.05rem;
+      color: #475569;
+      max-width: 1100px;
+      margin: 0 auto 16px auto;
+      text-align: justify;
+      text-align-last: center;
+    }
+
+    .hero-seo strong {
+      color: #0f172a;
+      font-weight: 800;
+    }
+
+    /* Core Services Grid */
+    .services-section {
+      padding: 20px 0 35px 0;
+    }
+
+    .section-title-wrap {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .section-title-wrap h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .service-card {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 24px 20px;
+      border-top: 4px solid var(--accent-orange);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+    }
+
+    .service-card h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 800;
+    }
+
+    .service-card p {
+      font-size: 0.92rem;
+      color: #556980;
+      line-height: 1.7;
+    }
+
+    /* Big Red Action Call Button */
+    .big-red-call-wrap {
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .btn-big-red {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: var(--accent-red);
+      color: #fff;
+      font-size: 1.35rem;
+      font-weight: 800;
+      padding: 14px 45px;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(211, 47, 47, 0.35);
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-big-red:hover {
+      background: #b71c1c;
+      transform: scale(1.02);
+    }
+
+    /* Operational Workflow Steps */
+    .workflow-section {
+      padding: 25px 0 35px 0;
+    }
+
+    .workflow-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .workflow-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .workflow-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .workflow-step {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 24px 20px;
+    }
+
+    .workflow-number {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: var(--accent-orange);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .workflow-step h3 {
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-weight: 800;
+    }
+
+    .workflow-step p {
+      font-size: 0.9rem;
+      color: #64748b;
+      line-height: 1.7;
+    }
+
+    /* Mid-Page SEO Section */
+    .mid-seo-section {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 35px 30px;
+      margin: 35px auto;
+    }
+
+    .mid-seo-section h2 {
+      font-size: 1.45rem;
+      color: var(--primary);
+      font-weight: 800;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .mid-seo-section p {
+      font-size: 1.05rem;
+      color: #475569;
+      line-height: 1.8;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    /* Deep Navy Booking Form Section */
+    .booking-section {
+      background-color: #0c2339;
+      color: #ffffff;
+      padding: 55px 0;
+      margin: 40px 0;
+      border-radius: 12px;
+    }
+
+    .form-wrapper {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .badge-fast {
+      display: inline-block;
+      background: rgba(37, 211, 102, 0.15);
+      color: #25d366;
+      border: 1px solid #25d366;
+      padding: 4px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .booking-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .booking-header h2 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .booking-header p {
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group-full {
+      grid-column: 1 / -1;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #e2e8f0;
+    }
+
+    .form-control {
+      width: 100%;
+      background: #08192a;
+      border: 1px solid #1e3a5a;
+      border-radius: 6px;
+      padding: 12px 14px;
+      color: #ffffff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .form-control:focus {
+      border-color: #38bdf8;
+    }
+
+    textarea.form-control {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .btn-submit-orange {
+      width: 100%;
+      background: #f26522;
+      color: #ffffff;
+      border: none;
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 1.15rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s ease;
+      margin-top: 15px;
+    }
+
+    .btn-submit-orange:hover {
+      background: #d85416;
+    }
+
+    .btn-form-whatsapp {
+      width: 100%;
+      background: #25d366;
+      color: #ffffff;
+      border: none;
+      padding: 13px;
+      border-radius: 6px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 12px;
+      transition: background 0.2s ease;
+    }
+
+    .btn-form-whatsapp:hover {
+      background: #20ba5a;
+    }
+
+    .form-disclaimer {
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+      margin-top: 15px;
+    }
+
+    /* Geo Badges Section */
+    .geo-coverage-section {
+      padding: 30px 0;
+    }
+
+    .geo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 900px) {
+      .geo-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .geo-col {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 22px;
+    }
+
+    .geo-col h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      font-weight: 800;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 8px;
+    }
+
+    .geo-col p.geo-desc {
+      font-size: 0.88rem;
+      color: #64748b;
+      margin-bottom: 12px;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .geo-tag {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    /* Detailed Technical Article */
+    .deep-seo-article {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 40px 35px;
+      margin: 35px auto 25px auto;
+    }
+
+    .deep-seo-article h2 {
+      font-size: 1.6rem;
+      color: var(--primary);
+      font-weight: 800;
+      margin-bottom: 20px;
+      border-right: 4px solid var(--accent-orange);
+      padding-right: 12px;
+    }
+
+    .deep-seo-article h3 {
+      font-size: 1.25rem;
+      color: #0f172a;
+      font-weight: 700;
+      margin: 25px 0 12px 0;
+    }
+
+    .deep-seo-article p {
+      font-size: 1.05rem;
+      color: #475569;
+      line-height: 1.85;
+      text-align: justify;
+      margin-bottom: 14px;
+    }
+
+    .deep-seo-article ul {
+      margin-right: 20px;
+      margin-bottom: 18px;
+      color: #475569;
+    }
+
+    .deep-seo-article li {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+
+    /* FAQ Accordion - Completely Closed Bottom Margin */
+    .faq-section {
+      padding: 20px 0 0 0;
+      margin-bottom: 0;
+    }
+
+    .faq-list {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .faq-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .faq-question {
+      width: 100%;
+      text-align: right;
+      padding: 16px 20px;
+      background: none;
+      border: none;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question::after {
+      content: '+';
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #64748b;
+    }
+
+    .faq-item.active .faq-question::after {
+      content: '−';
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 20px 16px 20px;
+      font-size: 0.98rem;
+      color: #475569;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    /* Footer Sealed to FAQ */
+    footer {
+      background-color: var(--primary-dark);
+      color: #94a3b8;
+      padding: 40px 0 20px 0;
+      border-top: 3px solid #1e3a5a;
+      margin-top: 35px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 550px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer-col h3 {
+      color: #ffffff;
+      font-size: 1.15rem;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: 8px;
+    }
+
+    .footer-col a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+
+    .footer-col a:hover {
+      color: #38bdf8;
+    }
+
+    .footer-disclaimer-box {
+      border-top: 1px solid #1e293b;
+      padding-top: 18px;
+      font-size: 0.85rem;
+      color: #64748b;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* Floating WhatsApp */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 80px;
+      left: 20px;
+      width: 55px;
+      height: 55px;
+      background: var(--accent-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      z-index: 999;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.1);
+    }
+
+    /* Mobile Sticky Bar */
+    .mobile-sticky-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: #ffffff;
+      border-top: 1px solid #e2e8f0;
+      z-index: 1000;
+      padding: 8px 12px;
+      gap: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .mobile-sticky-bar {
+        display: flex;
+      }
+    }
+
+    .sticky-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .sticky-call {
+      background: var(--accent-red);
+    }
+
+    .sticky-wa {
+      background: var(--accent-green);
+    }
+  </style>
+
+  <!-- Hard Entity Schema: Kelvinator Branch Linking to Parent Hub -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+        "@id": "https://kelvinator.maintenance-eg.net/#organization",
+        "name": "مركز صيانة كلفينيتور",
+        "alternateName": ["صيانة كلفينيتور ثلاجات وديب فريزر", "خدمة عملاء كلفينيتور"],
+        "url": "https://kelvinator.maintenance-eg.net/",
+        "telephone": "+201156174546",
+        "email": "ed3mnyit@gmail.com",
+        "priceRange": "$$",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "مركز يونس لصيانة الأجهزة المنزلية",
+          "url": "https://maintenance-eg.net/"
+        },
+        "description": "قسم متخصص في فحص وتشخيص أعطال ثلاجات وديب فريزر كلفينيتور نوفروست بالمنزل في محافظات القاهرة والجيزة والإسكندرية.",
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "القاهرة"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "الجيزة"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "الإسكندرية"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "خدمات صيانة ثلاجات وديب فريزر كلفينيتور",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "صيانة ثلاجات كلفينيتور نوفروست",
+                "description": "معالجة ضعف التبريد، شحن غاز الفريون، صيانة دوائر إذابة الثلج، واختبار كفاءة الضاغط ومروحة المبخر."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "صيانة ديب فريزر كلفينيتور رأسي وأفقي",
+                "description": "فحص ثرموستات التجميد، معالجة تراكم الثلج، ضبط جوان الأبواب، وكشف تسريب التبريد الميداني."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kelvinator.maintenance-eg.net/#website",
+        "url": "https://kelvinator.maintenance-eg.net/",
+        "name": "مركز صيانة كلفينيتور",
+        "inLanguage": "ar"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://kelvinator.maintenance-eg.net/#webpage",
+        "url": "https://kelvinator.maintenance-eg.net/",
+        "name": "مركز صيانة كلفينيتور للثلاجات والديب فريزر بالقاهرة والجيزة والإسكندرية",
+        "isPartOf": {
+          "@id": "https://kelvinator.maintenance-eg.net/#website"
+        },
+        "inLanguage": "ar"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://kelvinator.maintenance-eg.net/#faq",
+        "isPartOf": {
+          "@id": "https://kelvinator.maintenance-eg.net/#webpage"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "كيف يتم تسجيل بلاغ كشف على ثلاجة أو ديب فريزر كلفينيتور؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "يمكنك تسجيل البيانات عبر استمارة الموقع المخصصة أو الاتصال المباشر على 01156174546 أو التواصل واتساب لتحديد أقرب موعد زيارة منزلية."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "هل تتم أعمال صيانة أجهزة كلفينيتور داخل المنزل؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "نعم، كافة عمليات الفحص والتشخيص واستبدال الأجزاء التالفة لثلاجات وديب فريزر كلفينيتور تتم داخل منزل العميل دون نقل الجهاز."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ما هي أشهر أعطال ثلاجات كلفينيتور النوفروست؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ضعف التبريد في الكابينة السفلية، تراكم الثلوج على المبخر نتيجة عطل في السخان أو الثرموديسك، تسريب المياه تحت الأدراج، وصوت اهتزاز الموتور."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "كيف يتم تحديد تكلفة الفحص وإصلاح أجهزة كلفينيتور؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "يقوم الفني بمعاينة الجهاز ميدانياً وإبلاغ العميل بتقرير التشخيص وقيمة قطع الغيار المطلوبة وتكلفة الفحص الفني قبل البدء في أي عمل."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
-    <header>
-        <h1>مركز صيانة كلفينيتور للثلاجات والديب فريزر</h1>
-        <p>الخط الساخن الموحد لإصلاح وصيانة الثلاجات والديب فريزر بقطاع القاهرة الكبرى</p>
-    </header>
-
-    <div class="container">
-
-        <!-- المقدمة -->
-        <div class="intro-section">
-            <h2>مرحباً بكم في الخدمة المتخصصة لصيانة ثلاجات وديب فريزر كلفينيتور</h2>
-            <p>نحن نقدم أفضل خدمات الصيانة المنزلية الفورية لأجهزة كلفينيتور في مصر. إذا واجهتك أي مشاكل في التبريد، نظام النوفروست، تسريب الفريون، أو أعطال التجميد، فريقنا الفني جاهز لتقديم الخدمة بأعلى كفاءة وبقطع غيار أصلية 100% مع ضمان حقيقي على الإصلاح.</p>
-        </div>
-
-        <h2 class="section-title">أقسام صيانة الثلاجات والديب فريزر</h2>
-        
-        <!-- الأقسام -->
-        <div class="services-grid">
-            
-            <div class="service-card">
-                <div class="service-num">1</div>
-                <h3>صيانة ثلاجات كلفينيتور (نوفروست)</h3>
-                <p>علاج ضعف التبريد، شحن الفريون، صيانة الكباس، معالجة تسريب المياه، وفحص الدوائر الكهربائية ونظام النوفروست بالمنزل.</p>
-            </div>
-
-            <div class="service-card">
-                <div class="service-num">2</div>
-                <h3>صيانة ديب فريزر كلفينيتور (نوفروست)</h3>
-                <p>إصلاح أعطال التجميد، تغيير الثرموستات، معالجة انسداد غاز التبريد، وصيانة جميع موديلات الديب فريزر الرأسي والأفقي.</p>
-            </div>
-
-        </div>
-
-        <!-- بيانات التواصل والخريطة (مضاف فيها رقم الموبايل الجديد) -->
-        <div class="info-map-wrapper">
-            
-            <div class="info-side">
-                <h3>بيانات المركز والخط الساخن</h3>
-                <p><strong>اسم النشاط:</strong> مركز صيانة كلفينيتور - الخط الساخن</p>
-                <p><strong>العنوان الرئيسي:</strong> 12 شارع كلية الزراعة، كورنيش النيل، القاهرة</p>
-                <p><strong>رقم الهاتف الأرضي:</strong> <span class="phone-highlight">02 44444522</span></p>
-                <p><strong>رقم المحمول / الواتساب:</strong> <span class="phone-highlight">01156174546</span></p>
-                <p>مواعيد العمل: طوال أيام الأسبوع من 9 صباحاً حتى 10 مساءً.</p>
-                <a href="tel:01156174546" class="cta-btn">اتصل بنا الآن</a>
-            </div>
-
-            <div class="map-side">
-                <h3>موقعنا الجغرافي المعتمد</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221339.52621432793!2d31.2866389!3d29.909517799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145837b8be72bda1%3A0xdf7e7f91579ce30!2z2YXYsdmD2LIg2LXZitin2YbYqSDZg9mE2YHZitmG2YrYqtmI2LEgLSDYqtmI2YPZitmEINmD2YTZgdmK2YbZitiq2YjYsSAtINin2YTYrti3INin2YTYs9in2K7Zhg!5e0!3m2!1sar!2seg!4v1788617619336!5m2!1sar!2seg" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
-
-        </div>
-
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="https://kelvinator.maintenance-eg.net/" class="logo-area">
+        <span>❄️</span> مركز صيانة كلفينيتور
+      </a>
+      <div class="header-actions">
+        <a href="tel:01156174546" class="btn-call-header">
+          <span>📞</span> 01156174546
+        </a>
+      </div>
     </div>
+  </header>
 
-    <footer>
-        <p>جميع الحقوق محفوظة © مركز صيانة كلفينيتور للثلاجات والديب فريزر</p>
-    </footer>
+  <!-- Hero Intro SEO -->
+  <section class="hero-seo">
+    <div class="container">
+      <h1>مركز صيانة كلفينيتور للثلاجات والديب فريزر</h1>
+      <h2>خدمات الفحص المنزلي المتخصص لأجهزة التبريد بالقاهرة والجيزة والإسكندرية</h2>
+      <p>
+        يقدم <strong>مركز صيانة كلفينيتور</strong> الدعم الفني الميداني لمعالجة أعطال التبريد والتجميد في <strong>صيانة ثلاجات كلفينيتور</strong> و<strong>صيانة ديب فريزر كلفينيتور</strong> نوفروست. نركز على توفير حلول هندسية دقيقة تشمل فحص ضغوط غاز الفريون، صيانة دوائر إذابة الثلج التلقائية، واختبار كفاءة الضاغط وكروت التشغيل، مع توفير الزيارة والمعاينة المنزلية الفورية دون الحاجة لنقل الجهاز من مكانه.
+      </p>
+      <p>
+        تعتمد خطة العمل على توزيع سيارات التدخل الفني الميداني داخل قطاعات القاهرة والجيزة والإسكندرية، لإتمام عمليات الكشف وتشخيص الأعطال واستبدال الأجزاء التالفة بقطع بديلة مناسبة مع اختبار التشغيل واستقرار درجات الحرارة أمام العميل مباشرة.
+      </p>
+    </div>
+  </section>
 
+  <!-- Core Services Grid -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2>تخصصات فحص أجهزة كلفينيتور المنزلية</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3><span>❄️</span> صيانة ثلاجات كلفينيتور نوفروست</h3>
+          <p>معالجة أسباب ضعف التبريد في الكابينة السفلية، فحص مروحة توزيع الهواء البارد، واختبار حساسات درجات الحرارة والتايمر الإلكتروني لضمان استقرار دورة التبريد.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><span>🧊</span> صيانة ديب فريزر كلفينيتور</h3>
+          <p>إصلاح مشاكل انخفاض التجميد في أجهزة الديب فريزر الرأسي والأفقي، صيانة سخانات إذابة الثلج، وضبط كاوتش الأبواب المغناطيسي لمنع تسريب البرودة.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><span>⚙️</span> شحن الفريون وضغوط التبريد</h3>
+          <p>كشف ومعالجة التسريب المجهري في مواسير التبريد واللحامات، وتفريغ الدائرة بدقة وشحنها بغاز التبريد المطابق لمعايير الموديل المقررة.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><span>🔌</span> دوائر إذابة الثلج (Defrost System)</h3>
+          <p>فحص واختبار عناصر السخان الأرضي، حساس الثرموديسك، والفيوز الحراري لتفادي تراكم كتل الثلج وانسداد مجاري الهواء البارد.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><span>🔧</span> صيانة الموتور الضاغط (Compressor)</h3>
+          <p>فحص ريليهات الإقلاع ومجموعات الأوفرلود، قياس استهلاك الأمبير، والتأكد من سلامة ملفات المحرك الكهربائية وتبريده الذاتي.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><span>💧</span> تسريب المياه وانسداد الصرف</h3>
+          <p>تسليك مجاري تصريف مياه إذابة الثلج ومعالجة انسداد حوض التبخير الخلفي لمنع تجمع المياه أسفل أدراج الخضروات والأرضيات.</p>
+        </div>
+      </div>
+
+      <!-- Action Call Button -->
+      <div class="big-red-call-wrap">
+        <a href="tel:01156174546" class="btn-big-red">
+          <span>📞</span> 01156174546
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Operational Workflow Section -->
+  <section class="workflow-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2>آلية العمل الميداني وخطوات صيانة كلفينيتور</h2>
+      </div>
+
+      <div class="workflow-grid">
+        <div class="workflow-step">
+          <span class="workflow-number">01</span>
+          <h3>تسجيل بلاغ العطل</h3>
+          <p>استقبال بيانات نوع الجهاز (ثلاجة أو ديب فريزر كلفينيتور) ومظهر العطل والحي السكني عبر الهاتف أو الواتساب.</p>
+        </div>
+
+        <div class="workflow-step">
+          <span class="workflow-number">02</span>
+          <h3>التنسيق وتحديد الموعد</h3>
+          <p>مراجعة خط سير سيارات الخدمة الميدانية وتأكيد موعد الزيارة المنزلية المناسب للعميل في نطاق المحافظة.</p>
+        </div>
+
+        <div class="workflow-step">
+          <span class="workflow-number">03</span>
+          <h3>الفحص والتشخيص الميداني</h3>
+          <p>معاينة دائرة التبريد والكهرباء وتحديد الجزء التالف وإبلاغ العميل بتقرير الكشف وتكلفة الإصلاح قبل البدء.</p>
+        </div>
+
+        <div class="workflow-step">
+          <span class="workflow-number">04</span>
+          <h3>إتمام الإصلاح وتجربة التشغيل</h3>
+          <p>استبدال الأجزاء التالفة وتشغيل الجهاز واختبار هبوط درجات الحرارة واستقرار الأداء أمام العميل مباشرة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mid-Page SEO Section -->
+  <section class="container">
+    <div class="mid-seo-section">
+      <h2>إجراءات الكشف الفني على ثلاجات وديب فريزر كلفينيتور</h2>
+      <p>
+        تحتاج أجهزة التبريد من كلفينيتور إلى تعامل هندسي متوازن لفحص منظومة التبريد المغلقة دون المساس بالدوائر الأساسية. يحرص الفنيون في <strong>مركز صيانة كلفينيتور</strong> على قياس ضغوط خطوط السحب والطرد، واختبار كفاءة العزل الحراري لكابينة الثلاجة، لضمان عدم استمرار عمل الموتور لفترات طويلة دون فصل، مما يحمي الضاغط من درجات الحرارة الزائدة ويوفر في استهلاك الكهرباء.
+      </p>
+      <p>
+        كما تشمل المعاينة الدورية الكشف على دورة النوفروست بالكامل؛ حيث يؤدي تلف أي عنصر من حساسات الحرارة أو هيتر إذابة الثلج إلى تراكم الجليد على المبخر الداخلي، مما يحجب تيار الهواء المتدفق للكابينة السفلية. نوفر خدمة الفحص المنزلي في كافة قطاعات القاهرة والجيزة والإسكندرية عبر الرقم المباشر 01156174546.
+      </p>
+    </div>
+  </section>
+
+  <!-- Deep Navy Booking Form Section -->
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="booking-header">
+          <span class="badge-fast">⚡ استجابة سريعة للقاهرة والجيزة والإسكندرية</span>
+          <h2>تسجيل بلاغ صيانة كلفينيتور فوري</h2>
+          <p>سجل بياناتك وسيصل إخطار فوري لمشرف الصيانة لتوجيه أقرب فني تبريد لموقعك</p>
+        </div>
+
+        <form action="https://formsubmit.co/ed3mnyit@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_subject" value="بلاغ صيانة كلفينيتور جديد - kelvinator.maintenance-eg.net">
+
+          <div class="form-grid">
+            <div>
+              <label class="form-label">الاسم بالكامل *</label>
+              <input type="text" name="name" class="form-control" placeholder="اكتب اسمك الكريم" required>
+            </div>
+
+            <div>
+              <label class="form-label">رقم الهاتف للتواصل *</label>
+              <input type="tel" name="phone" class="form-control" placeholder="01xxxxxxxxx" required>
+            </div>
+
+            <div>
+              <label class="form-label">نوع الجهاز المعطل *</label>
+              <select name="appliance_type" class="form-control" required>
+                <option value="ثلاجة كلفينيتور نوفروست">ثلاجة كلفينيتور نوفروست</option>
+                <option value="ديب فريزر كلفينيتور رأسي">ديب فريزر كلفينيتور رأسي</option>
+                <option value="ديب فريزر كلفينيتور أفقي">ديب فريزر كلفينيتور أفقي</option>
+                <option value="ثلاجة كلفينيتور بابين / سايد باي سايد">ثلاجة كلفينيتور بابين / سايد باي سايد</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="form-label">سعة الجهاز أو الموديل التقريبي</label>
+              <input type="text" name="model" class="form-control" placeholder="مثال: 16 قدم، 18 قدم، 5 درج...">
+            </div>
+
+            <div>
+              <label class="form-label">الموعد المفضل للزيارة *</label>
+              <select name="visit_time" class="form-control" required>
+                <option value="طوارئ / بأسرع وقت اليوم">⚡ طوارئ / بأسرع وقت اليوم</option>
+                <option value="صباحاً (10 ص - 2 ظ)">صباحاً (10 ص - 2 ظ)</option>
+                <option value="مساءً (3 م - 8 م)">مساءً (3 م - 8 م)</option>
+                <option value="خلال 24 ساعة">خلال 24 ساعة</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="form-label">العنوان بالتفصيل والمنطقة *</label>
+              <input type="text" name="address" class="form-control" placeholder="المحافظة، الحي، الشارع (مثال: مدينة نصر، الهرم، سموحة...)" required>
+            </div>
+
+            <div class="form-group-full">
+              <label class="form-label">وصف مظهر العطل *</label>
+              <textarea name="problem_description" class="form-control" placeholder="وضح المشكلة (مثال: الثلاجة لا تبرد من تحت، تراكم ثلج في الفريزر، الموتور لا يعمل، تسريب مياه...)" required></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit-orange">
+            <span>🚀</span> إرسال بلاغ صيانة كلفينيتور الآن
+          </button>
+
+          <a href="https://wa.me/201156174546?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D8%AD%D8%B5%20%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%AB%D9%84%D8%A7%D8%AC%D8%A9%20%D9%83%D9%84%D9%81%D9%8A%D9%86%D9%8A%D8%AA%D9%88%D8%B1" class="btn-form-whatsapp" target="_blank" rel="noopener">
+            <span>💬</span> واتساب فني مباشر
+          </a>
+
+          <p class="form-disclaimer">🔒 بياناتك في سرية تامة وتستخدم فقط لتوجيه الفني الأقرب لعنوانك.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Geo-Coverage Section -->
+  <section class="geo-coverage-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2>نطاق تغطية صيانة كلفينيتور الميدانية</h2>
+      </div>
+
+      <div class="geo-grid">
+        <!-- Cairo -->
+        <div class="geo-col">
+          <h3>محافظة القاهرة</h3>
+          <p class="geo-desc">فحص وإصلاح ثلاجات وديب فريزر كلفينيتور بكافة الأحياء:</p>
+          <div class="tag-container">
+            <span class="geo-tag">مدينة نصر</span>
+            <span class="geo-tag">مصر الجديدة</span>
+            <span class="geo-tag">التجمع الخامس</span>
+            <span class="geo-tag">المعادي</span>
+            <span class="geo-tag">شبرا</span>
+            <span class="geo-tag">عين شمس</span>
+            <span class="geo-tag">حلوان</span>
+            <span class="geo-tag">المقطم</span>
+            <span class="geo-tag">الزيتون</span>
+            <span class="geo-tag">النزهة الجديدة</span>
+            <span class="geo-tag">الشروق</span>
+            <span class="geo-tag">مدينتي</span>
+            <span class="geo-tag">الرحاب</span>
+          </div>
+        </div>
+
+        <!-- Giza -->
+        <div class="geo-col">
+          <h3>محافظة الجيزة</h3>
+          <p class="geo-desc">خدمات صيانة منزلية فورية لقطاعات الجيزة والمدن الجديدة:</p>
+          <div class="tag-container">
+            <span class="geo-tag">شارع الهرم</span>
+            <span class="geo-tag">شارع فيصل</span>
+            <span class="geo-tag">الدقي</span>
+            <span class="geo-tag">المهندسين</span>
+            <span class="geo-tag">العجوزة</span>
+            <span class="geo-tag">6 أكتوبر</span>
+            <span class="geo-tag">الشيخ زايد</span>
+            <span class="geo-tag">حدائق الأهرام</span>
+            <span class="geo-tag">العمرانية</span>
+            <span class="geo-tag">الجيزة</span>
+            <span class="geo-tag">البدرشين</span>
+          </div>
+        </div>
+
+        <!-- Alexandria -->
+        <div class="geo-col">
+          <h3>محافظة الإسكندرية</h3>
+          <p class="geo-desc">صيانة أجهزة كلفينيتور بكافة قطاعات وأحياء الإسكندرية:</p>
+          <div class="tag-container">
+            <span class="geo-tag">سموحة</span>
+            <span class="geo-tag">ميامي</span>
+            <span class="geo-tag">سيدي بشر</span>
+            <span class="geo-tag">لوران</span>
+            <span class="geo-tag">جناكليس</span>
+            <span class="geo-tag">الإبراهيمية</span>
+            <span class="geo-tag">محرم بك</span>
+            <span class="geo-tag">العجمي</span>
+            <span class="geo-tag">الهانوفيل</span>
+            <span class="geo-tag">المندرة</span>
+            <span class="geo-tag">المنتزه</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Massive Pre-Footer Technical Guide -->
+  <section class="container">
+    <div class="deep-seo-article">
+      <h2>دليل الفحص الميداني لأعطال ثلاجات وديب فريزر كلفينيتور</h2>
+      <p>
+        تتميز أجهزة كلفينيتور بمتانة الهيكل وقوة المحركات، إلا أن عوامل تقادم التشغيل وتذبذب الأحمال الكهربائية تتطلب تدخلاً فنياً مدروساً. يعمل <strong>مركز صيانة كلفينيتور</strong> التابع للمركز الرئيسي على تشخيص المشاكل الميدانية الشائعة بدقة وفق الآتي:
+      </p>
+
+      <h3>1. معالجة ضعف تبريد الكابينة وتراكم الثلوج</h3>
+      <p>
+        عند ملاحظة برودة جيدة في الفريزر مع انعدام البرودة في أسفل الثلاجة، يكون السبب في الغالب عطل بدورة النوفروست. يقوم الفني بقياس مقاومة السخان الزجاجي أو المعدني، والتأكد من فتح بوابة الدامبر الهوائي، واختبار حساس إذابة الثلج والتايمر الميكانيكي أو كارت التحكم لمنع تجمد مروحة التوزيع.
+      </p>
+
+      <h3>2. معالجة تسريب غاز التبريد (الفريون) واللحام الهندسي</h3>
+      <p>
+        يؤدي تسريب غاز الفريون إلى دوران الموتور باستمرار دون فصل مع فقدان التبريد التدريجي. يتم حقن الدائرة بغاز النيتروجين لكشف موقع التنفيس بدقة، وإعادة لحام الوصلات النحاسية بالفضة وتغيير الفلتر المجفف (الدرير) قبل إعادة الشحن بالوزن المقنن.
+      </p>
+
+      <h3>3. صيانة ضواغط كلفينيتور ومجموعات التشغيل</h3>
+      <p>
+        في حال سماع صوت تكتكة متكرر مع عدم إقلاع المحرك، يتم فحص ريليه التشغيل ومكثف الإقلاع (الكابستور) وحماية الأوفرلود ضد ارتفاع الحرارة، والتأكد من استقرار الفولت المغذي للثلاجة.
+      </p>
+      <p>
+        نوفر بلاغات الفحص السريع والتشخيص الدقيق لجميع أجهزة كلفينيتور بالمنزل عبر الخط المباشر 01156174546.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Fully Closed Gap) -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-title-wrap" style="margin-bottom: 20px;">
+        <h2>الأسئلة الشائعة حول صيانة ثلاجات وديب فريزر كلفينيتور</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">كيف يتم حجز موعد كشف على ثلاجة كلفينيتور؟</button>
+          <div class="faq-answer">
+            يمكنك تسجيل بلاغ الفحص عبر الاستمارة الإلكترونية بالموقع أو الاتصال على الرقم 01156174546 أو التواصل واتساب لتحديد أقرب موعد لزيارة الفني لموقعك.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">هل يتم الإصلاح وفحص الجهاز داخل المنزل؟</button>
+          <div class="faq-answer">
+            نعم، تتم كافة أعمال المعاينة والفحص الميداني وتغيير الأجزاء التالفة بالمنزل دون الحاجة لنقل ثلاجات أو ديب فريزر كلفينيتور خارج المنزل.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">ما هي أسباب توقف تبريد كابينة ثلاجة كلفينيتور فجأة؟</button>
+          <div class="faq-answer">
+            يعود ذلك في الغالب إلى انسداد مجاري الهواء البارد بكتل الثلج نتيجة عطل في هيتر النوفروست، أو تلف مروحة التوزيع، أو خلل في ثرموديسك الإذابة.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">كيف يتم تقدير تكلفة الفحص وتغيير الأجزاء التالفة؟</button>
+          <div class="faq-answer">
+            يبلغ الفني العميل بتقرير التشخيص وتكلفة الفحص وقيمة الأجزاء المستبدلة قبل البدء في إجراء أي تصليحات، ولا يتم العمل إلا بموافقة العميل المسبقة.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>مركز صيانة كلفينيتور</h3>
+          <p style="font-size: 0.9rem; margin-bottom: 15px;">
+            قسم متخصص في فحص ومعاينة ثلاجات وديب فريزر كلفينيتور بالقاهرة والجيزة والإسكندرية. كشف فني منزلي دقيق وسريع.
+          </p>
+          <p style="color: #fff; font-weight: 700;">📞 01156174546</p>
+          <p style="color: #cbd5e1; font-size: 0.85rem;">✉️ ed3mnyit@gmail.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>خدمات أجهزة كلفينيتور</h3>
+          <ul>
+            <li><a href="#booking">صيانة ثلاجات كلفينيتور</a></li>
+            <li><a href="#booking">صيانة ديب فريزر كلفينيتور</a></li>
+            <li><a href="#booking">شحن فريون كلفينيتور</a></li>
+            <li><a href="#booking">صيانة دورة النوفروست</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>أقسام الشبكة الرئيسية</h3>
+          <ul>
+            <li><a href="https://maintenance-eg.net/">صيانة غسالات ملابس</a></li>
+            <li><a href="https://maintenance-eg.net/">صيانة ثلاجات منزلية</a></li>
+            <li><a href="https://maintenance-eg.net/">صيانة ديب فريزر</a></li>
+            <li><a href="https://maintenance-eg.net/">صيانة تكييفات هواء</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>المركز الرئيسي</h3>
+          <ul>
+            <li><a href="https://maintenance-eg.net/">مركز صيانة أجهزة منزلية</a></li>
+            <li><a href="https://beko.maintenance-eg.net">صيانة بيكو</a></li>
+            <li><a href="https://unionaire-center.maintenance-eg.net/">صيانة يونيون اير</a></li>
+            <li><a href="https://carrier.maintenance-eg.net/">صيانة كاريير</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <p>
+          إخلاء مسؤولية: يعمل مركز يونس كـ مركز صيانة أجهزة منزلية مستقل يقدم خدمات الفحص والمعاينة الميدانية، ولا يتبع الوكلاء الرسميين للعلامات التجارية المذكورة، والتي تعود ملكيتها لأصحابها وتُذكر لبيان نوعية الأجهزة المتداولة فقط.
+        </p>
+        <p style="margin-top: 8px;">
+          جميع الحقوق محفوظة © مركز صيانة كلفينيتور | kelvinator.maintenance-eg.net
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/201156174546?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D8%AD%D8%B5%20%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%AB%D9%84%D8%A7%D8%AC%D8%A9%20%D9%83%D9%84%D9%81%D9%8A%D9%86%D9%8A%D8%AA%D9%88%D8%B1" class="floating-whatsapp" target="_blank" rel="noopener" title="تواصل عبر الواتساب">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+  </a>
+
+  <!-- Mobile Sticky Bar -->
+  <div class="mobile-sticky-bar">
+    <a href="tel:01156174546" class="sticky-btn sticky-call">
+      <span>📞</span> اتصال فوري
+    </a>
+    <a href="https://wa.me/201156174546?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D9%85%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D8%AD%D8%B5%20%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%AB%D9%84%D8%A7%D8%AC%D8%A9%20%D9%83%D9%84%D9%81%D9%8A%D9%86%D9%8A%D8%AA%D9%88%D8%B1" class="sticky-btn sticky-wa" target="_blank" rel="noopener">
+      <span>💬</span> واتساب فني
+    </a>
+  </div>
+
+  <!-- Interactive FAQ JS -->
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
